@@ -46,124 +46,145 @@ Used to retrieve records from a table.
 SELECT column1, column2 FROM table_name WHERE condition;
 ```
 **Question 1**
---
--- Paste Question 1 here
 
-```sql
--- Paste your SQL code below for Question 1
-```
+
+
+<img width="1104" height="701" alt="image" src="https://github.com/user-attachments/assets/940a3aa8-1678-4466-a50c-ad71bfafbd8c" />
+
+
+
 
 **Output:**
 
-![Output1](output.png)
+
+
+<img width="1863" height="397" alt="image" src="https://github.com/user-attachments/assets/924b26bd-53e1-4d24-a01d-dc37b43683cd" />
+
 
 **Question 2**
----
--- Paste Question 2 here
 
-```sql
--- Paste your SQL code below for Question 2
-```
+
+<img width="1042" height="679" alt="image" src="https://github.com/user-attachments/assets/f3e2af48-9aba-4c48-b500-998958f9c68f" />
+
+
 
 **Output:**
 
-![Output2](output.png)
+
+
+<img width="1851" height="327" alt="image" src="https://github.com/user-attachments/assets/d50d6b82-5c98-4460-9b7f-db170d3e82f4" />
+
+
 
 **Question 3**
----
--- Paste Question 3 here
 
-```sql
--- Paste your SQL code below for Question 3
-```
+
+
+<img width="1201" height="751" alt="image" src="https://github.com/user-attachments/assets/ddd25f21-cfd1-4e0e-b9ce-5a9e4acc77ec" />
+
 
 **Output:**
 
-![Output3](output.png)
+
+
+<img width="1866" height="422" alt="image" src="https://github.com/user-attachments/assets/ec2944f9-c246-41b1-982c-e5d30aaa771d" />
+
+
 
 **Question 4**
----
--- Paste Question 4 here
 
-```sql
--- Paste your SQL code below for Question 4
-```
+
+
+<img width="894" height="563" alt="image" src="https://github.com/user-attachments/assets/beeb6c5c-c395-4860-ab57-99e6144fb8af" />
+
+
 
 **Output:**
 
-![Output4](output.png)
+
+
+<img width="1367" height="307" alt="image" src="https://github.com/user-attachments/assets/c1de102c-ded4-40ca-a24b-d4a19a1bb335" />
+
+
 
 **Question 5**
----
--- Paste Question 5 here
 
-```sql
--- Paste your SQL code below for Question 5
-```
+
+
+<img width="1054" height="820" alt="image" src="https://github.com/user-attachments/assets/da3e93a4-6d61-471f-879e-ddaf8e67f110" />
+
+
 
 **Output:**
 
-![Output5](output.png)
+
+<img width="1323" height="976" alt="image" src="https://github.com/user-attachments/assets/22cd0c40-42b1-4422-8736-55659695382e" />
+
 
 **Question 6**
----
--- Paste Question 6 here
 
-```sql
--- Paste your SQL code below for Question 6
-```
+
+
+<img width="838" height="262" alt="image" src="https://github.com/user-attachments/assets/2554c074-2d20-430f-9fb2-d2132e60d78e" />
+
+
 
 **Output:**
 
-![Output6](output.png)
+
+<img width="1390" height="474" alt="image" src="https://github.com/user-attachments/assets/5cd3db6a-d698-4032-af59-665f36efb8cd" />
+
 
 **Question 7**
----
--- Paste Question 7 here
 
-```sql
--- Paste your SQL code below for Question 7
-```
+
+<img width="1457" height="817" alt="image" src="https://github.com/user-attachments/assets/7ede5e70-91f4-4daa-85da-35ed4c4995d7" />
+
 
 **Output:**
 
-![Output7](output.png)
+
+<img width="925" height="646" alt="image" src="https://github.com/user-attachments/assets/7c93c4af-22dd-43e4-beea-d96dc9b8c6bb" />
+
 
 **Question 8**
----
--- Paste Question 8 here
 
-```sql
--- Paste your SQL code below for Question 8
-```
+
+
+<img width="1075" height="684" alt="image" src="https://github.com/user-attachments/assets/ab802c57-774b-4a88-b2eb-79904b7027d8" />
+
+
 
 **Output:**
 
-![Output8](output.png)
+
+<img width="987" height="536" alt="image" src="https://github.com/user-attachments/assets/cbd49c8c-23d8-441c-aae4-bcd8a30d28de" />
+
 
 **Question 9**
----
--- Paste Question 9 here
 
-```sql
--- Paste your SQL code below for Question 9
-```
+
+<img width="1613" height="667" alt="image" src="https://github.com/user-attachments/assets/3b376417-ed39-4447-bd3c-1f08e7ddd33b" />
+
 
 **Output:**
 
-![Output9](output.png)
+
+<img width="1173" height="397" alt="image" src="https://github.com/user-attachments/assets/ea8ca0e6-25d3-4983-bb30-f2f0a6ef57cc" />
+
 
 **Question 10**
----
--- Paste Question 10 here
 
-```sql
--- Paste your SQL code below for Question 10
-```
+
+<img width="1440" height="891" alt="image" src="https://github.com/user-attachments/assets/be0d5127-5c49-4d0f-8540-b71b739825b7" />
+
 
 **Output:**
 
-![Output10](output.png)
+
+<img width="915" height="536" alt="image" src="https://github.com/user-attachments/assets/3e50a50e-bdc0-4102-9ea7-242576a64be6" />
+
+
 
 ## RESULT
 Thus, the SQL queries to implement DML commands have been executed successfully.
