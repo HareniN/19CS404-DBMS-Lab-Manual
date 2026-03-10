@@ -22,33 +22,31 @@ FlexiFit Gym wants a database to manage its members, trainers, and fitness progr
 - Payments tracked for memberships and sessions.
 
 ### ER Diagram:
-*Paste or attach your diagram here*  
-![ER Diagram](er_diagram_fitness.png)
+
+<img width="1138" height="902" alt="Screenshot 2026-03-10 134756" src="https://github.com/user-attachments/assets/df8c75f8-f37c-4636-898f-1d0430459cd3" />
+
+
+
+
 
 ### Entities and Attributes
 
-| Entity | Attributes (PK, FK) | Notes |
-|--------|--------------------|-------|
-|        |                    |       |
-|        |                    |       |
-|        |                    |       |
-|        |                    |       |
-|        |                    |       |
+<img width="1052" height="363" alt="Screenshot 2026-03-10 134810" src="https://github.com/user-attachments/assets/407cfa5d-00fe-4362-90da-bd194b99ba66" />
+
+
+
 
 ### Relationships and Constraints
 
-| Relationship | Cardinality | Participation | Notes |
-|--------------|------------|---------------|-------|
-|              |            |               |       |
-|              |            |               |       |
-|              |            |               |       |
+<img width="1068" height="319" alt="image" src="https://github.com/user-attachments/assets/2058d85a-fa4b-4650-8751-968c143b6d0a" />
+
+
+
 
 ### Assumptions
-- 
-- 
-- 
-
----
+IDs are primary keys and unique.
+Junction tables resolve all M:N relationships.
+Session status covers attendance.
 
 # Scenario B: City Library Event & Book Lending System
 
@@ -64,33 +62,28 @@ The Central Library wants to manage book lending and cultural events.
 - Overdue fines apply for late returns.
 
 ### ER Diagram:
-*Paste or attach your diagram here*  
-![ER Diagram](er_diagram_library.png)
+
+<img width="1146" height="897" alt="image" src="https://github.com/user-attachments/assets/97452b24-ea0b-49ac-970a-8a648a8d8da7" />
+
 
 ### Entities and Attributes
 
-| Entity | Attributes (PK, FK) | Notes |
-|--------|--------------------|-------|
-|        |                    |       |
-|        |                    |       |
-|        |                    |       |
-|        |                    |       |
-|        |                    |       |
+<img width="1000" height="440" alt="image" src="https://github.com/user-attachments/assets/ef347055-906d-48e4-8942-4c689071c416" />
+
 
 ### Relationships and Constraints
 
-| Relationship | Cardinality | Participation | Notes |
-|--------------|------------|---------------|-------|
-|              |            |               |       |
-|              |            |               |       |
-|              |            |               |       |
+<img width="1041" height="441" alt="image" src="https://github.com/user-attachments/assets/410ddeb9-8dd8-4abf-a6b5-ee71aca77ce2" />
+
 
 ### Assumptions
-- 
-- 
-- 
 
----
+Each book copy is unique via BookID.
+
+lines are only for late returns.
+Rooms can serve multiple purposes (events, study).
+M:N relationships are resolved with junction tables.
+All IDs are unique primary keys.
 
 # Scenario C: Restaurant Table Reservation & Ordering
 
@@ -106,33 +99,32 @@ A popular restaurant wants to manage reservations, orders, and billing.
 - Waiters assigned to serve reservations.
 
 ### ER Diagram:
-*Paste or attach your diagram here*  
-![ER Diagram](er_diagram_restaurant.png)
+
+
+<img width="1104" height="803" alt="image" src="https://github.com/user-attachments/assets/b7bbcf23-7eba-40e7-8d3c-1e965fddd44d" />
+
 
 ### Entities and Attributes
 
-| Entity | Attributes (PK, FK) | Notes |
-|--------|--------------------|-------|
-|        |                    |       |
-|        |                    |       |
-|        |                    |       |
-|        |                    |       |
-|        |                    |       |
+<img width="1169" height="413" alt="image" src="https://github.com/user-attachments/assets/b0acf175-261b-433e-b9a9-fe4ed057e6e1" />
+
 
 ### Relationships and Constraints
 
-| Relationship | Cardinality | Participation | Notes |
-|--------------|------------|---------------|-------|
-|              |            |               |       |
-|              |            |               |       |
-|              |            |               |       |
+
+<img width="1139" height="401" alt="image" src="https://github.com/user-attachments/assets/c8f3c49a-1d88-4cb4-b432-50c102db26ad" />
+
 
 ### Assumptions
-- 
-- 
-- 
 
----
+Table Assignment: A reservation is assigned to one specific table. Walk-in customers might create a reservation record on the spot.
+
+Order-Reservation Link: Every order must be associated with an existing reservation.
+Dish Category: Each dish belongs to a single category.
+Bill Generation: A single bill is generated per reservation, encompassing all orders for that reservation.
+Waiter Assignment: Waiters can be assigned to multiple reservations, and a single reservation might have multiple waiters over its duration (e.g., shift changes).
+All IDs are unique primary keys.
+
 
 ## Instructions for Students
 
